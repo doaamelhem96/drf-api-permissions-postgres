@@ -1,5 +1,5 @@
 """
-ASGI config for fictions_api_postgress project.
+ASGI config for postgres project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'fictions_api_postgress.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'postgres.settings')
 
 application = get_asgi_application()

@@ -3,4 +3,3 @@ from .models import Fiction
 # Register your models here.
 
 admin.site.register(Fiction)
-

@@ -20,6 +20,3 @@ class FictionDetailView(RetrieveUpdateDestroyAPIView):
     permission_classes = [IsOwnerOrReadOnly]
 
 
-
-
-
